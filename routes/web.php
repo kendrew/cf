@@ -38,3 +38,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+
+Route::get('/profile/{slug}', [CfController::class, 'display_single_company']);

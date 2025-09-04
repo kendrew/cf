@@ -9,9 +9,10 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   
-
+   @vite('resources/css/app.css')
+   <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
  
-
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> 
 
 
 

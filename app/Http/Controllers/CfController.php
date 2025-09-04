@@ -22,5 +22,16 @@ class CfController extends BaseController
 	}
 	
 	
+	public function display_single_company(Request $request, $slug){	
+
+
+				$data = [	
+    	  			
+    	  			];
+
+		 return view("pages.cf_company_single", $data); 
+	}
+	
+	
 	
 }//end controller

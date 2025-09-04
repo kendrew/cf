@@ -19,12 +19,14 @@
            @include('includes.header')
 
 
-		  <main class="">
-
-			<!-- start of 2 columns -->
-				<div class="mt-8 p-4 max-w-3xl mx-auto grid grid-cols-1 gap-6 sm:px-6 lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-3">
+		  <main class="" style="min-height:550px">
+			  <html class="h-full bg-white">
+  				<body class="h-full">
+		
+             
                		@yield('content')
-        		</div>
+        	 	</body>
+        	 </html>
   		   </main>
 
 

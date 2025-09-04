@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:where([aria-expanded="true"]) .in-aria-expanded\:hidden{
+	display:none;
+}
+
+
+.not-in-aria-expanded\:hidden:not(:where([aria-expanded="true"]) *){
+	display:none;
+}
