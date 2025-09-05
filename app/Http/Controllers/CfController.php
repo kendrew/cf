@@ -19,7 +19,7 @@ class CfController extends BaseController
     	  			];
 
 		 return view("pages.cf_home_page", $data); 
-	}
+	}//end function
 	
 	
 	public function display_single_company(Request $request, $slug){	
@@ -30,7 +30,20 @@ class CfController extends BaseController
     	  			];
 
 		 return view("pages.cf_company_single", $data); 
-	}
+	}//end function
+	
+	
+	
+	
+	public function display_single_industry(Request $request, $slug){	
+
+
+				$data = [	
+    	  			
+    	  			];
+
+		 return view("pages.cf_industry_single", $data); 
+	}//end function
 	
 	
 	

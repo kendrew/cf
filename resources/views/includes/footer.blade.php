@@ -22,15 +22,15 @@
       <!-- section -->
       <div>
         <h6
-          style="text-decoration:underline"
-          class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+          style=""
+          class="mb-4 flex text-sm text-teal-500  justify-center font-semibold uppercase md:justify-start">
           Browse
         </h6>
-        <p class="mb-4">
-          <a href="{{url('/')}}" style="color:#fff">Home</a>
+        <p class="mb-4 text-sm">
+          <a href="{{url('/')}}" class="text-white" style="">Home</a>
         </p>
-        <p class="mb-4">
-          <a href="https://www.companyfiler.com" style="color:#fff;">Blog</a>
+        <p class="mb-4 text-sm">
+          <a href="https://www.companyfiler.com" class="text-white" style="">Blog</a>
         </p>
 
        
@@ -38,25 +38,25 @@
       <!-- section -->
       <div>
         <h6
-          style="text-decoration:underline"
-          class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+          style=""
+          class="mb-4 flex text-sm text-teal-500 justify-center font-semibold uppercase md:justify-start">
          About
         </h6>
-        <p class="mb-4">
-          <a href="{{url('/about')}}" style="color:#fff!">About Us</a>
+        <p class="mb-4 text-sm">
+          <a href="{{url('/about')}}" class="text-white" style="">About Us</a>
         </p>
-        <p class="mb-4">
-          <a href="{{url('/contact')}}" style="color:#fff!">Contact Us</a>
+        <p class="mb-4 text-sm">
+          <a href="{{url('/contact')}}" class="text-white"  style="">Contact Us</a>
         </p>
-        <p class="mb-4">
-          <a href="{{url('/privacy')}}" style="color:#fff;">Privacy Policy</a>
+        <p class="mb-4 text-sm">
+          <a href="{{url('/privacy')}}" class="text-white" style="">Privacy Policy</a>
         </p>
         
       </div>
       <!-- section -->
       <div>
         <h6
-          class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+          class="mb-4 flex text-sm text-teal-500 justify-center font-semibold uppercase md:justify-start">
           Contact
         </h6>
         
@@ -72,7 +72,7 @@
                 d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
             </svg>
           </span>
-          <a href="mailto:consult@companyfiler.com" style="color:#fff!;">consult@companyfiler.com</a>
+          <a href="mailto:consult@companyfiler.com" class="text-white" style="">consult@companyfiler.com</a>
         </p>
         
       </div>

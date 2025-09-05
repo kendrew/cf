@@ -11,3 +11,16 @@
 .not-in-aria-expanded\:hidden:not(:where([aria-expanded="true"]) *){
 	display:none;
 }
+
+a {
+    @apply text-blue-600 hover:text-blue-800 hover:underline;
+  }
+  
+a:hover {
+  color: #14b8a6; /* Teal on hover (teal-500) */
+}
+
+
+a.cf-submenu:hover {
+  text-decoration: none; /* Prevent underline on hover */
+}
